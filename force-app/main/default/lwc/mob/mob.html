@@ -1,0 +1,76 @@
+<template>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_8-of-12 slds-small-size_4-of-12">
+            <lightning-vertical-navigation>
+            <lightning-vertical-navigation-section label="Customer Life Cycle">
+                <lightning-vertical-navigation-item label="DSD" name="DSD" ></lightning-vertical-navigation-item>
+                <lightning-vertical-navigation-item label="FSV" name="FSV"></lightning-vertical-navigation-item>
+                <lightning-vertical-navigation-item label="Data Change" name="data change"></lightning-vertical-navigation-item>
+            </lightning-vertical-navigation-section>
+            <lightning-vertical-navigation-overflow >
+                <lightning-vertical-navigation-item label="Equipment Change" name="Equipment" ></lightning-vertical-navigation-item>
+                <lightning-vertical-navigation-item label="Driver Request" name="FSV"></lightning-vertical-navigation-item>
+            </lightning-vertical-navigation-overflow>
+        </lightning-vertical-navigation>
+            <!-- <span>DSD</span>
+            <br>
+            <span>FSV</span><br>
+            <span>Data Change</span> -->
+
+        </div>
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_8-of-12 slds-large-size_4-of-12 slds-small-size_8-of-12">
+           <div class="slds-grid slds-grid_vertical">
+            <ul class="slds-has-dividers_bottom-space">
+                <li class="slds-item">
+                    <lightning-tile label= "ADDRESS INFO">
+                        <div class="slds-col">
+                            <lightning-input type="text"  label="ADDRESS" class="i4" data-id="address" value={address}  ></lightning-input>
+                            <table>
+                            <tr>
+                            <td class="i3">
+                            <lightning-input type="text" label="City" class="i7" data-id="city" value={city} ></lightning-input>
+                            <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="i5">
+                            <lightning-input type="text" label="STATE" class="i7" data-id="state" value={state} ></lightning-input>
+                            <br>             
+                            </td>
+                        </tr>
+                           <tr>
+                            <td class="i6">
+                            <lightning-input type="text" label="ZIPCODE" class="i7" data-id="zipcode" value={zipcode} ></lightning-input><br><br>
+                            </td>
+                            </tr>
+                            </table> 
+                            </div>                        
+                    </lightning-tile>
+                </li>
+            </ul>
+         
+        </div>
+      </div>
+      </div>
+</template>
+<!-- <template>
+    <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="3" padding="around-small">
+    <div class="slds-p-around_medium lgc-bg">
+        
+        <ul class="slds-has-dividers_bottom-space">
+            <li class="slds-item">
+                <lightning-tile label="Lightning component team" >
+                    <p class="slds-truncate" title="DSD RECORDS">Records</p>
+                    
+                </lightning-tile>
+            </li>
+                <li class="slds-item">
+                    <lightning-tile label="fsv component">
+                        
+                    </lightning-tile>
+
+            </li>
+            </ul>
+            </div>
+        </lightning-layout-item>
+</template> -->

@@ -1,0 +1,76 @@
+.i1
+{
+    position:relative;
+    left:20px;
+}
+.i2
+{
+    width: 550px;
+    
+}
+.i3
+{
+    border:2px solid black;
+    width:1200px;
+    background-color: white;
+}
+.i4
+{
+    width: 1150px;
+}
+.i5
+{
+    position:relative;
+    left:150px;
+}
+.i6
+{
+    position:relative;
+    left:150px;
+}
+.i7
+{
+    width:155px;
+}
+h3
+{
+width:1170px;
+background-color: rgb(214, 208, 208);
+border-radius: 5px;
+}
+.b1
+{
+    background-color: lightblue;
+}
+.b2
+{
+    height: 55px;
+    width:125px;
+    position:relative;
+    left:493px;
+    background-color: white;
+    font-size: larger;
+    border-radius: 10px;
+
+    
+}
+p
+{
+    font-size: larger;
+    width:1200px;
+    font-family: Arial;
+}
+.im
+{
+    width: 215px;
+    position: relative;
+    top:-77px;
+    left:961px;
+}
+.im1
+{
+    width: 150px;
+    position: relative;
+    height:17px;
+    top:2px;
+}

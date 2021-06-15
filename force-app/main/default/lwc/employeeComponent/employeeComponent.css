@@ -1,0 +1,24 @@
+.b2
+{
+    height: 55px;
+    width:125px;
+    position:relative;
+    left:493px;
+    background-color: white;
+    font-size: larger;
+    border-radius: 10px;
+    
+    
+} 
+.i3
+{
+    position:relative;
+    left:20px;
+    width:1200px;
+    background-color: white;
+    overflow:hidden;
+    padding:2px,2px,2px,2px;
+}
+/* .THIS .slds-tabs--default__item.slds-active{
+    background: blue;
+} */

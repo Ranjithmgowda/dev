@@ -1,0 +1,31 @@
+<!-- <template>
+    <div class="i3">
+    <c-professional-component onprofdata={handleprof} ></c-professional-component>
+    <c-adressinfo-component onaddressdata={handleAdress}></c-adressinfo-component>
+    <c-personal-component onpersonaldata={handlepersonal}></c-personal-component>
+    <h2>DECLARATION</h2>
+    <p>I certify penalty of prejury that the above information is true, correct and complete and i have authority to sign on behalf of the
+        above business</p>
+<br>
+   <lightning-button type="submit"  label="SUBMIT"  onclick={handleSubmit} class="b2" > submit</lightning-button>
+</div>
+</template>   -->
+ <template>
+     <div class=" i3 ">
+    <lightning-tabset variant="scope">
+        <lightning-tab label="PROFESSIONAL INFORMATION" >
+            <c-professional-component onprofdata={handleprof} ></c-professional-component>
+        </lightning-tab>
+        <lightning-tab label="ADDRESS INFORMATION">
+            <c-adressinfo-component onaddressdata={handleAdress}></c-adressinfo-component>
+        </lightning-tab>
+        <lightning-tab label="PERSONAL INFORMATION">
+            <c-personal-component onpersonaldata={handlepersonal}></c-personal-component>
+            <h1>DECLARATION</h1>
+            <p class="i1">I certify penalty of prejury that the above information is true, correct and complete and i have authority to sign on behalf of the
+                above business</p><br>
+            <lightning-button type="submit"  label="SUBMIT"  onclick={handleSubmit} class="b2" > </lightning-button>
+        </lightning-tab>
+    </lightning-tabset>
+</div>
+</template>

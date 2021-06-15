@@ -1,0 +1,5 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global" >
+	<p>TEST COMPONENT</p>
+    <p>Lead Source- web</p>
+    <p>Stage-Closed Won</p>
+</aura:component>

@@ -1,0 +1,26 @@
+<template>
+    <table>
+        <tr>
+            <td>
+            
+                <lightning-input type="date" label="JOIN DATE" data-id="joindate" value={joindate} class="im1"></lightning-input><br><br>
+
+            </td>
+        </tr>
+            <tr>
+                <td>
+                <lightning-input type="text" label="TYPE:FULL NAME"  data-id="name" class="text " value={name} ></lightning-input><br><br>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                <lightning-input type="text" label="DESIGNATION" data-id="desg"  class="text " value={desg}></lightning-input><br><br>
+            </td>
+        </tr>
+        <tr>
+        <td>
+        <lightning-input type="tel" label="PHONE NUMBER" maxlength="10" data-id="phone" class="text" value={phone}></lightning-input><br><br>
+    </td>
+        </tr>
+        </table>
+</template>
